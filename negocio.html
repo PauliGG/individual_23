@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <title>Inicio</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/estilo.css">
+    <!-- Jquery y js-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="js/jsNegocio.js"></script>
+
+    <!-- Fancybox-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
+    <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+    
+    <!--Bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Individual 22</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+
+                <ul class="navbar-nav">
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="negocio.html">Inicio</a>
+                    </li>
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Agregar/Crear
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <li><a class="dropdown-item" href="agregarcliente.html">Agregar cliente</a></li>
+                            <li><a class="dropdown-item" href="agregarventa.html">Agregar venta</a></li>
+                            <li><a class="dropdown-item" href="agregardetalleventa.html">Agregar detalle venta</a></li>
+                            <li><a class="dropdown-item" href="crearproducto.html">Crear producto</a></li>
+                            <li><a class="dropdown-item" href="crearfactura.html">Crear factura</a></li>
+                        </ul>
+                    </li>
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Listados
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <li><a class="dropdown-item" href="listarventas.html">listarventas</a></li>
+                            <li><a class="dropdown-item" href="listadocategorias.html">listadocategorias</a></li>
+                        </ul>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="ingreso.html">Ingreso</a>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+
+        <br>
+        <h1 class="titulo-principal">INICIO</h1>
+        <br>
+
+        <div class="contenido">
+
+            <ol type="a">
+                <div id="div1">
+
+                    <div id="div11">
+                        <h1>
+                            <li>Historia del negocio</li>
+                        </h1>
+                        <p>
+                            La Papelaria & Co fue fundada el año 2007 como "la tienda de diseño de papel en Chile".
+                            Desde entonces traemos
+                            desde todos los rincones del mundo los productos más nobles, innovadores, novedosos,
+                            llenos
+                            de color para todos
+                            los amantes del papel, la papelería y el diseño
+                        </p>
+                    </div>
+
+                    <br>
+                    <center><a data-fancybox="gallery" href="./img/200x300px.jpg"><img src="./img/200x300px.jpg"></a>
+                    </center>
+                    <br>
+                    <img src="https://cdn.shopify.com/s/files/1/0261/5928/4258/files/LaPapelaria_Banners_Contacto.jpg" width="600px">
+                    <br>
+                </div>
+
+                <div id="div2">
+                    <div id="div22">
+                        <h2>
+                            <li>Ubicación y Sucursales existentes</li>
+                        </h2>
+                        <table style="text-align: center;">
+                            <thead>
+                                <tr>
+                                    <th style="width: 50%;vertical-align: top;">Papelaria Santiago Centro</th>
+                                    <th>Papelaria Mall Espacio Urbano La Dehesa</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>Nueva York 52- 54 Local N1<br>
+                                        Santiago Centro, Santiago<br>
+                                    </td>
+                                    <td>Avenida El Rodeo 12850 Local 11<br>
+                                        Lo Barnechea, Santiago <br>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <br>
+
+
+                    <a data-fancybox
+                        href="https://www.youtube.com/watch?v=L1oMLsiMusQ&list=PLyvsggKtwbLX9LrDnl1-K6QtYo7m0yXWB">
+                        <center><input type="button" value="Ver video" style="width: 300px; height: 50px; ">
+                        </center>
+                    </a>
+                    <br>
+                    <img src="https://cdn.shopify.com/s/files/1/0261/5928/4258/files/logo_400_400x.png">
+                    <br>
+                </div>
+
+                <div id="div3">
+
+                    <div id="div33">
+                        <h3>
+                            <li>Productos y Servicios</li>
+                        </h3>
+                        <ul>
+                            <li>Venta Mayorista</li>
+                            <li>Regalos Corporativas</li>
+                            <li>Papelaria Home</li>
+                        </ul>
+                    </div>
+                    <br>
+                    <a data-fancybox data-type="iframe"
+                        data-src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3784.2957990134328!2d-70.30897628587348!3d-18.470255887438253!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x915aa9a321cd0531%3A0xee76eab320c715a8!2sCinemark%20Mallplaza%20Arica!5e0!3m2!1ses!2scl!4v1616387881141!5m2!1ses!2scl"
+                        href="javascript:;">
+                        <center><input type="button" value="Ver mapa" style="width: 300px; height: 50px; "></center>
+                    </a>
+
+
+                    <br>
+                    <img src="https://cdn.shopify.com/s/files/1/0261/5928/4258/files/banner_marca_faber_1600x.png">
+                    <br>
+                </div>
+
+                <div id="div4">
+                    <h3>Referencia de proveedores</h3>
+                    <ol>
+                        <li><a href="https://www.faber-castell.com/">faber-castell.com</a></li>
+                        <li><a href="https://www.torre.cl/">torre.cl</a></li>
+                        <li><a href="https://rhein.cl/">rhein.cl</a></li>
+                    </ol>
+                </div>
+            </ol>
+
+
+            <input type="button" id="desplegar" value="Desplegar secciones">
+            <br>
+        </div>
+
+        <footer>
+            <p>05-04-2021 / Autor: Paulina Gomez / Obj. pagina: muestra el inicio</p>
+        </footer>
+
+    </main>
+    <!--Bootstrap-->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"
+        integrity="sha384-SR1sx49pcuLnqZUnnPwx6FCym0wLsk5JZuNx2bPPENzswTNFaQU1RDvt3wT4gWFG"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.min.js"
+        integrity="sha384-j0CNLUeiqtyaRmlzUHCPZ+Gy5fQu0dQ6eZ/xAww941Ai1SxSY+0EQqNXNE6DZiVc"
+        crossorigin="anonymous"></script>
+    <!--Bootstrap-->
+ 
+</body>
+
+</html>
