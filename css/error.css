@@ -1,3 +1,8 @@
+
+/* Autor: Paulina Gomez*/
+/* Version: Version1*/
+/* Obj.Archivo: Estilos para los errores de Jquery Validate */
+
 label.error{
     opacity: 80%;
     color: red;

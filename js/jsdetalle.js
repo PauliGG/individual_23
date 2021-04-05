@@ -1,3 +1,7 @@
+// Autor: Paulina Gomez
+// Version: Version1
+// Obj.Archivo: mostrar detalles de la venta
+
 $(document).ready(function () {
 	//div1
 	$("#agregar").on("click", function () {

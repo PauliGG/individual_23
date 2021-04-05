@@ -1,3 +1,8 @@
+// Autor: Paulina Gomez
+// Version: Version1
+// Obj.Archivo: agregar productos
+
+
 $(document).ready(function () {
 	
 	$("#agregarProducto").click(function (){    // Dos formas de usarlo

@@ -1,3 +1,7 @@
+// Autor: Paulina Gomez
+// Version: Version1
+// Obj.Archivo: efectos de mostrar y esconder para el inicio
+
 $(document).ready(function () {
 	//div1
 	$("#div11").on( "click", function() {

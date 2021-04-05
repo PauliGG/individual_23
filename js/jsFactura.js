@@ -1,3 +1,7 @@
+// Autor: Paulina Gomez
+// Version: Version1
+// Obj.Archivo: validar formulario de factura
+
 $(document).ready(function () {
 
 	$("#formularioFactura").validate({
