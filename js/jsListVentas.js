@@ -1,3 +1,8 @@
+// Autor: Paulina Gomez
+// Version: Version1
+// Obj.Archivo: listar ventas
+
+
 $(document).ready(function () {
 
     $('#listadoVentas').DataTable({

@@ -1,3 +1,7 @@
+// Autor: Paulina Gomez
+// Version: Version1
+// Obj.Archivo: mostrar las categorias
+
 $(document).ready(function () {
 
 
